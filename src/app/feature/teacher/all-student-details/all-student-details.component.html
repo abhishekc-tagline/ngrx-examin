@@ -1,0 +1,27 @@
+<!-- <section class="vh-100 center">
+    <ng-container *ngIf="studentDetails">
+      <div class="container justify-content-center vh-100  d-flex mt-3 h-100">
+        <div class="row justify-content-center d-flex">
+          <div class="col">
+            <app-table
+              [cols]="cols"
+              [dataSource]="studentDetails"
+              [isAction]="true"
+              [action]="action"
+              [statuses]="statuses"
+              [title]="title"
+              [placeholder]="placeholder"
+              [isStatus]="true"
+              (details)="onUserChange($event)"
+              [actions]="actions"
+            ></app-table>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </section> -->
+  
+<button class="btn btn-primary" (click)="getData()">Get Student Data</button>
+<button class="btn btn-primary" (click)="selectData()">Select Student Data</button>
+<button class="btn btn-primary" (click)="getDataById()">Get Student ById</button>
+
